@@ -1,0 +1,22 @@
+import random
+import random
+from time import sleep
+from turtle import color
+i=int (input("LED on Press '1' and LED Off press '0' :"))
+# n=0
+n=int (input("How many times repeat the process"))
+m=0
+for m in range(n):
+# for n in range(10):
+    if(i==1):
+        print("LED ON")
+        print("RED")
+        sleep(5)
+        print("YELLOW")
+        sleep(5)
+        print("GREEN")
+        sleep(10)
+    elif(i==0):
+        print("LED OFF")
+    else:
+        print("Enter Valied Number")
